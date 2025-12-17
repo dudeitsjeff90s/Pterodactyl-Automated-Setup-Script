@@ -159,3 +159,4 @@ systemctl daemon-reload
 echo "=== INSTALL COMPLETE ==="
 echo "Panel URL: http://$DOMAIN"
 echo "IMPORTANT: Add config.yml to /etc/pterodactyl before starting Wings"
+Also Important to Enable the Wings -----> sudo systemctl enable --now wings
